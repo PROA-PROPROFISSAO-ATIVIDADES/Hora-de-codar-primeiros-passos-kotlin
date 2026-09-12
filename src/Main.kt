@@ -51,6 +51,6 @@ fun main() { // Para testar descomente cada função individualmente
     //alunosAprovados() //ex-3.5
     //media6Notas() //ex-3.6
     //intervalo1AN() //ex-3.7
-    //numerosMaiores100() //ex-3.8
+    numerosMaiores100() //ex-3.8
     //numerosdentroIntervalo() //ex-3.9
 }

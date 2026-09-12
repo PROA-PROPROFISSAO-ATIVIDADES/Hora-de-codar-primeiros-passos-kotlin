@@ -1,8 +1,8 @@
 package laços
 
 fun ativarBomba(tempo: Int){
-    for(i in 1..tempo step 1){
+    for(i in tempo downTo 0){
         println(i)
     }
-    println("Buuuuum!!")
+    println("EXPLOSÃO!!")
 }

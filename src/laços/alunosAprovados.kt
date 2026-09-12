@@ -42,11 +42,15 @@ fun alunosAprovados(){
         if (resposta == "S") { continuar = true } else { continuar = false }
     }
 
+    var c: Int = 0
+    println("Alunos cadastrados: ${alunos.size}")
     println("Alunos Aprovados: ")
     for(aluno in alunos){
         if(aluno.media >= 9.5) {
+            c++
             println("---------------")
             println(aluno)
         }
     }
+    println("$c alunos foram aprovados")
 }
