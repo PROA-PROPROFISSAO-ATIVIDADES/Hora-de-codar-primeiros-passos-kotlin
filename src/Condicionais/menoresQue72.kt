@@ -27,5 +27,6 @@ fun menoresQue72(){
     val n6 = readln().toInt()
     if (n6 < 72) soma += n6
 
+    println("$n1 | $n2 | $n3 | $n4 | $n5 | $n6")
     println("A soma dos números menores que 72 é: $soma")
 }

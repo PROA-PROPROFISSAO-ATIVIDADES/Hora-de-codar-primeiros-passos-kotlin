@@ -1,6 +1,5 @@
 package Condicionais
 
-// fiquei com preguiça de usar apenas condicionais e usei uma função para facilitar
 fun mediaTeste(){
     println("Digite um numero entre 0 a 10")
     println("Digite a nota 1: ")
@@ -26,13 +25,13 @@ fun mediaTeste(){
 
     println("Digite a nota 4: ")
     val n4 = readln().toIntOrNull() ?: -1
-    if(!verificaIntervalo(n3)) {
+    if(!verificaIntervalo(n4)) {
         println("Programa encerrado por nota inválida. (Digite um numero entre 0 a 10 na proxima vez")
         return
     }
 
     val media = (n1 + n2 + n3 + n4) / 4
-    if(media > 5) println("Você passou no teste") else ("Tente novamente")
+    if(media > 5) println("Você passou no teste") else println("Tente novamente")
 }
 
 fun verificaIntervalo(n1: Int): Boolean { return n1 in 0..10 }
